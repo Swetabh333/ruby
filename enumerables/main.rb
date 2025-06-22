@@ -8,3 +8,5 @@ for friend in friends do
 end
 
 puts invited_list #=> ["Sharon", "Leo", 'Leila',"Arun"]
+
+friends.select { |friend| friend != "Brian" } #=> ["Sharon", "Leo", "Leila", "Arun"]
